@@ -1,0 +1,79 @@
+body{
+	background: #666;
+	color: #fff;
+	font-family:arial;
+}
+a{  /* a represents a attribute */
+	color: #fff;
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+.clr{
+	clear:both;
+}
+
+#container{
+	/* for id preceeded by #symbol */
+	background: #333;
+	width: 960px;
+	margin: 30px auto; /*30px for top and bottom and auto for left and right*/
+	overflow:hidden;
+	padding: 10px;
+}
+
+#navigation{
+	height:40px;
+	background: #666;
+}
+#navigation ul{
+	padding-top: 13px;
+	padding-right: 10px;
+}
+
+#navigation li{
+	list-style: none;
+	float: left;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+#navigation .active{
+	/* . represents for class*/
+	font-weight: bold;
+	color:#000;
+}
+
+#main{
+	float:left;
+	width: 60%;
+}
+#subject{
+	float: right;
+	width:35%;
+	background: #666;
+	margin-top: 20px;
+	padding: 10px;
+}
+#footer{
+	text-align: center;
+	padding: 10px;
+	background: #666;
+	margin-top:10px;
+}
+
+.service li{
+	border-bottom: 2px #666 dashed;
+	padding-bottom: 20px;
+}
+.service a{
+	background: #666;
+	padding: 10px;
+}
+
+input,textarea{
+	width:100%;
+	padding:5px;
+	margin-bottom: 15px;
+}
